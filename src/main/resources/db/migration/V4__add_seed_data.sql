@@ -1,5 +1,5 @@
 -- Книги
-INSERT INTO books (title, author, copies_total, copies_available) VALUES
+INSERT INTO books (title, author, items_total, items_available) VALUES
     ('Effective Java', 'Joshua Bloch', 3, 3),
     ('Clean Code', 'Robert C. Martin', 2, 2),
     ('Design Patterns', 'Gang of Four',2, 2),

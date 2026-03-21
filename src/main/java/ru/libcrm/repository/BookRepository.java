@@ -26,7 +26,7 @@ public class BookRepository {
     }
 
     public List<Book> findAll() {
-        String sql = "SELECT * FROM books OREDER BY title";
+        String sql = "SELECT * FROM books ORDER BY title";
         return jdbcTemplate.query(sql, rowMapper);
     }
 
